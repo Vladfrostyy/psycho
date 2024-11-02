@@ -87,7 +87,7 @@ a {
 }
 
 .main {
-  height: 190vh;
+  height: 140vh;
   padding: 20px 0px;
   position: relative;
 }
@@ -147,7 +147,7 @@ a {
   width: 100%;
   align-items: left;
   flex-direction: column;
-  gap: 80px;
+  gap: 60px;
 }
 .main__title {
 }
@@ -924,6 +924,9 @@ a {
   }
 }
 @media(max-width:599.98px){
+  .main{
+    height: auto;
+  }
   .block-row-first, .block-row-second{
     gap: 0;
     flex-direction: column;
@@ -943,6 +946,9 @@ a {
   }
   .target__title{
     font-size: 36px;
+  }
+  .main__buttons-block{
+    width: 100%;
   }
   .main__button-btn{
     width: 100%;
