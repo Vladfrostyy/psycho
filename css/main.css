@@ -925,7 +925,7 @@ a {
 }
 @media(max-width:599.98px){
   .main{
-    height: auto;
+    height: auto !important;
   }
   .block-row-first, .block-row-second{
     gap: 0;
