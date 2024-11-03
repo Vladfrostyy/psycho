@@ -236,7 +236,6 @@ a {
 }
 /******************************************************/
 .page__bonus {
-  background-color: #fff;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -263,12 +262,13 @@ a {
 .bonus__title {
   color: #fff;
   width: 70%;
-  font-size: 32px;
+  font-size: 24px;
   text-align: center;
 }
 .bonus__text {
   color: #fff;
   width: 70%;
+  font-size: 18px;
   text-align: center;
 }
 /*----------------------------------*/
@@ -331,6 +331,7 @@ a {
 .target__button {
   display: flex;
   align-items: center;
+  text-transform: uppercase;
   justify-content: center;
   text-align: center;
   border-radius: 20px;
@@ -440,7 +441,6 @@ a {
   text-align: center;
   width: 70%;
   color: #151515;
-  padding-bottom: 60px;
 }
 .courseProgram__body {
   display: flex;
@@ -537,7 +537,7 @@ a {
 }
 .course__title {
   font-size: 56px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   text-align: center;
 }
 .course__card {
@@ -547,7 +547,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 60px;
+  gap: 40px;
   border-radius: 20px;
   background-color: #fff;
 }
@@ -599,14 +599,19 @@ a {
 .course__button {
 }
 .course__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  padding: 20px 120px;
-   background-color: #B39F7A;
-   border-radius: 20px;
-   color: #fff;
+  border-radius: 20px;
+  color: #fff;
+  padding: 25px 60px;
+  background-color: #B39F7A;
+  transition: all 0.4s ease 0s;
 }
 .course__btn:hover{
-  background-color: #B39F7A;
+  box-shadow: 1px -1px 15px rgba(115, 115, 115, 0.8);
+  border: none;
 }
 .course__bonus {
   color: #151515;
@@ -815,14 +820,16 @@ a {
   flex-direction: column;
   gap: 10px;
 }
+.titleMain{
+  font-size: 36px !important;
+  color: #151515 !;
+}
 .about__titles {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 .about__title {
-  font-size: 46px;
-  color: #B39F7A;
 }
 .about__subtitle {
 }
@@ -848,6 +855,7 @@ a {
 ._container {
 }
 .footer__body {
+  padding-bottom: 100px;
   color: #151515;
   display: flex;
   align-items: center;
@@ -1020,7 +1028,7 @@ a {
     gap: 10px;
   }
   .main{
-    height: auto;
+    height: 100vh;
   }
   .block-row-first, .block-row-second{
     gap: 0;
@@ -1051,6 +1059,8 @@ a {
   }
   .main__block-hero{
     gap: 5px;
+    width: 100%;
+
   }
   .courseProgram__title{
     font-size: 26px;
