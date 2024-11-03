@@ -228,7 +228,7 @@ a {
 
 .main__button-discount {
   border-radius: 100%;
-  background-color: #B39F7A;
+  background-color: #FFB730;
   padding: 20px;
   color: #fff;
   font-weight: 400;
@@ -337,7 +337,7 @@ a {
   border-radius: 20px;
   color: #fff;
   padding: 25px 60px;
-  background-color: #B39F7A;
+  background-color: #FFB730;
   transition: all 0.4s ease 0s;
 }
 .target__button:hover{
@@ -606,7 +606,7 @@ a {
   border-radius: 20px;
   color: #fff;
   padding: 25px 60px;
-  background-color: #B39F7A;
+  background-color: #FFB730;
   transition: all 0.4s ease 0s;
 }
 .course__btn:hover{
@@ -786,8 +786,8 @@ a {
 }
 .btn-li {
   padding: 10px 15px;
-  background-color: #fff;
-  color: #B39F7A;
+  background-color: #FFB730;
+  color: #fff;
   border-radius: 20px;
 }
 /*-------------------------------------------------*/
