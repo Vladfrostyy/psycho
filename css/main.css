@@ -235,6 +235,44 @@ a {
   font-size: 20px;
 }
 /******************************************************/
+.page__bonus {
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.bonus {
+}
+.bonus__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+._container {
+}
+.bonus__body {
+  width: 80%;
+  background-color: #B39F7A;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.bonus__title {
+  color: #fff;
+  width: 70%;
+  font-size: 32px;
+  text-align: center;
+}
+.bonus__text {
+  color: #fff;
+  width: 70%;
+  text-align: center;
+}
+/*----------------------------------*/
+
 .page__target {
   background-color: #fff;
   color: #151515;
@@ -296,13 +334,13 @@ a {
   justify-content: center;
   text-align: center;
   border-radius: 20px;
+  color: #fff;
   padding: 25px 60px;
-  border: 1px solid #151515;
+  background-color: #B39F7A;
   transition: all 0.4s ease 0s;
 }
 .target__button:hover{
-  background-color: #B39F7A;
-  color: #fff;
+  box-shadow: 1px -1px 15px rgba(115, 115, 115, 0.8);
   border: none;
 }
 /*------------------------------------------------------------------*/
@@ -384,6 +422,10 @@ a {
   justify-content: center;
   position: relative;
 } 
+.main__subImg{
+  max-width: 30px;
+
+}
 /*--------------------------------------------------------*/
 .page__courseProgram {
 }
@@ -468,6 +510,7 @@ a {
 }
 .content {
 }
+
 .list-content {
   display: flex;
   flex-direction: column;
@@ -937,7 +980,19 @@ a {
   .block-row-first{
     padding: 12px;
   }
- 
+  .bonus__body {
+    width: 100%;
+  }
+  .bonus__title {
+    color: #fff;
+    width: 95%;
+    font-size: 32px;
+    text-align: center;
+  }
+  .bonus__text {
+    color: #fff;
+    width: 95%;
+  }
   .block-row-first, .block-row-second{
     width: 100%;
     display: flex;
@@ -948,8 +1003,13 @@ a {
   .info-first-text,
   .info-first-title,
   .info-second-text,
-  .info-second-title{
+  .info-second-title,
+  .costValue{
     font-size: 10px;
+  }
+  .info-second-text,
+  .info-second-title{
+    font-size: 11px;
   }
   .btn-info-first, .btn-info-second{
     padding: 20px;
@@ -984,6 +1044,7 @@ a {
     text-align: left;
     font-size: 14px;
     line-height: 20px;
+    width: 100%;
   }
   .main__subtitle{
     font-size: 20px;
@@ -1014,6 +1075,9 @@ a {
   font-size: 18px;
   text-align: left;
 }
+.main__wrap{
+  gap: 30px;
+}
 .course__button{
   width: 100%;
   padding: 0px 5px;
@@ -1027,6 +1091,10 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.main__title{
+  font-size: 26px;
 }
 .accordion__title{
   font-size: 36px;
