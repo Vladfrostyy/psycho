@@ -92,6 +92,7 @@ a {
   position: relative;
 }
 .main__container {
+  height: 100%;
 }
 ._container {
 }
@@ -100,6 +101,7 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 80px;
+  height: 100%;
 }
 .main__row {
   display: flex;
@@ -228,7 +230,7 @@ a {
 
 .main__button-discount {
   border-radius: 100%;
-  background-color: #FFB730;
+  background-color: #D0213E;
   padding: 20px;
   color: #fff;
   font-weight: 400;
@@ -337,7 +339,7 @@ a {
   border-radius: 20px;
   color: #fff;
   padding: 25px 60px;
-  background-color: #FFB730;
+  background-color: #D0213E;
   transition: all 0.4s ease 0s;
 }
 .target__button:hover{
@@ -354,7 +356,6 @@ a {
 }
 .accordion .container {
   position: relative;
-  margin: 10px 10px;
 }
 
 /* Positions the labels relative to the .container. Adds padding to the top and bottom and increases font size. Also makes its cursor a pointer */
@@ -424,7 +425,7 @@ a {
   position: relative;
 } 
 .main__subImg{
-  max-width: 30px;
+  max-width: 24px;
 
 }
 /*--------------------------------------------------------*/
@@ -606,7 +607,7 @@ a {
   border-radius: 20px;
   color: #fff;
   padding: 25px 60px;
-  background-color: #FFB730;
+  background-color: #D0213E;
   transition: all 0.4s ease 0s;
 }
 .course__btn:hover{
@@ -786,7 +787,7 @@ a {
 }
 .btn-li {
   padding: 10px 15px;
-  background-color: #FFB730;
+  background-color: #D0213E;
   color: #fff;
   border-radius: 20px;
 }
@@ -1086,7 +1087,8 @@ a {
   text-align: left;
 }
 .main__wrap{
-  gap: 30px;
+  height: 100%;
+  justify-content: space-between;
 }
 .course__button{
   width: 100%;
